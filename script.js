@@ -22,9 +22,13 @@ function generatePassword() {
 
     if (passwordPrompt >= 8 && passwordPrompt <= 128)
       var confirmUpperChars = confirm("Do you want to include upper case letters?");
+        console.log(confirmUpperChars)
       var confirmLowerChars = confirm("Do you want to include lower case letters?");
+        console.log(confirmLowerChars)
       var confirmNumberChars = confirm("Do you want to include numbers?");
+        console.log(confirmNumberChars)
       var confirmSpecialChars = confirm("Do you want to include special characters?");
+        console.log(confirmSpecialChars)
 }
 
 
